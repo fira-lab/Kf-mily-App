@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo1681215358">
+
+    <ImageView
+        android:id="@+id/iv_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/youtube_icon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:id="@+id/tv_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:textColor="#000000"
+        android:layout_below="@id/iv_youtube"
+        android:layout_alignLeft="@id/iv_youtube"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/iv_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/facebook_icon"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tv_youtube" />
+    <TextView
+        android:id="@+id/tv_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:textColor="#000000"
+        android:layout_below="@id/iv_facebook"
+        android:layout_alignLeft="@id/iv_facebook"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/iv_telegram"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/telegram_icon"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tv_facebook" />
+    <TextView
+        android:id="@+id/tv_telegram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telegram"
+        android:textColor="#000000"
+        android:layout_below="@id/iv_telegram"
+        android:layout_alignLeft="@id/iv_telegram"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/iv_tiktok"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/tiktok_icon"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tv_telegram" />
+    <TextView
+        android:id="@+id/tv_tiktok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TikTok"
+        android:textColor="#000000"
+        android:layout_below="@id/iv_tiktok"
+        android:layout_alignLeft="@id/iv_tiktok"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

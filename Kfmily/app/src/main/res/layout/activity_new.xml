@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo1681216900"
+    tools:context=".NewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_1"
+            android:background="@color/purple_200"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:text="According to the Bible, Jesus is the only way to be saved from eternal punishment in hell. John 14:6 says, I am the way, the truth, and the life. No one comes to the Father except through me. This means that without accepting Jesus as our Savior and submitting to His lordship, we cannot have a relationship with God and will ultimately face the consequences of our sin.
+
+        However, the good news is that Jesus' sacrifice on the cross made a way for us to be saved. John 3:16 says, For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.This demonstrates the depth of God's love for us and His desire to save us from the punishment we deserve.
+
+        Furthermore, 1 John 4:8 states that God is love.This means that everything God does is motivated by love, including sending His Son to die for us. In Romans 5:8, it says, But God demonstrates his own love for us in this: While we were still sinners, Christ died for usAccording to the Bible, Jesus is the only way to be saved from eternal punishment in hell. John 14:6 says, I am the way, the truth, and the life. No one comes to the Father except through me. This means that without accepting Jesus as our Savior and submitting to His lordship, we cannot have a relationship with God and will ultimately face the consequences of our sin.
+
+        However, the good news is that Jesus' sacrifice on the cross made a way for us to be saved. John 3:16 says, For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.This demonstrates the depth of God's love for us and His desire to save us from the punishment we deserve.
+
+        Furthermore, 1 John 4:8 states that God is love. This means that everything God does is motivated by love, including sending His Son to die for us. In Romans 5:8, it says, But God demonstrates his own love for us in this: While we were still sinners, Christ died for us
+        Jesus Christ's love is unfathomable and unfailing, yet He detests sin. This is the reason why He died on the cross - to save us from the bondage of sin and to enable us to live a life that is pleasing to God. On the cross, Jesus exhibited unparalleled love and mercy, despite the agony and pain He endured.
+
+        One of the most well-known verses in the Bible that speaks to this truth is John 3:16: For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.This verse clearly illustrates God's immense love for us and His willingness to sacrifice His only Son to save us from sin.
+
+        Jesus’ life and teachings also demonstrate His love for humanity and His hatred for sin. He performed miracles and healings, forgave sins, and loved people unconditionally, regardless of their sins or status in society. However, He also rebuked sin whenever He encountered it, even to the point of turning over tables in the temple (Matthew 21:12–13).
+
+        When Jesus died on the cross, God the Father demonstrated His love for His Son by raising Him from the dead. Romans 6:4 affirms that we too may live a new life because of what Jesus did on the cross. As Christians, we live in the confidence that our sin has been removed, and that God sees us as righteous through the sacrifice of Christ. This is the foundation of our faith, and it is a testament to the love of God.
+
+        In conclusion, Jesus' love for people is beyond measure, but His hatred for sin is equally profound. He died for our sins out of an unwavering love for us, and God the Father demonstrated His love for His beloved Son by raising Him from the dead. This is the ultimate demonstration of love, and it is available to every single one of us. Let us accept this love and turn away from sin so that we may live in righteousness and enjoy the blessings of God." />
+
+    <!-- Display the YouTube videos -->
+    <VideoView
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <VideoView
+        android:id="@+id/video2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <VideoView
+        android:id="@+id/video3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <VideoView
+        android:id="@+id/video4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <VideoView
+        android:id="@+id/video5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Display the fields for the user to enter their information -->
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Full Name" />
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/phone_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/message_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Write your message here..." />
+
+    <!-- Add a button for the user to send their message and information -->
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Send" />
+
+</LinearLayout>
+
+    </ScrollView>

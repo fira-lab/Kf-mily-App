@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/council_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo1681224230"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="This the department of council that gives services like councliling,family unioin,prayer request,comment about our fellowship, guide people and provide support in any way possible so below if you have any issue mentioned above write on the message make sure that FULL name and PHONE number are correct we will contact you as soon as possible"
+        />.
+
+
+    <EditText
+        android:id="@+id/full_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="48dp"
+        android:hint="Phone Number"/>
+
+    <EditText
+        android:id="@+id/message_edit_text"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="100dp"
+        android:hint="Message"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

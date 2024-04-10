@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Kf@mily</string>
+    <string name="announcement">ANNOUNCEMENT</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="council">COUNCIL</string>
+    <string name="platform">PLATFORM</string>
+    <string name="panel_1">Panel 1</string>
+    <string name="panel_1_content">Panel 1 content</string>
+    <string name="panel_2">Panel 2</string>
+    <string name="panel_2_content">Panel 2 content</string>
+    <string name="panel_3">Panel 3</string>
+    <string name="panel_4">Panel 4</string>
+    <string name="panel_4_content">Panel 4 content</string>
+    <string name="panel_5">Panel 5</string>
+    <string name="panel_5_content">Panel 5 content</string>
+    <string name="panel_6">Panel 6</string>
+    <string name="panel_6_content">Panel 6 content</string>
+    <string name="panel_7">Panel 7</string>
+    <string name="panel_7_content">Panel 7 content</string>
+    <string name="panel_8">Panel 8</string>
+    <string name="panel_8_content">Panel 8 content</string>
+    <string name="panel_9">Panel 9</string>
+    <string name="panel_9_content">Panel 9 content</string>
+    <string name="panel_10">Panel 10</string>
+    <string name="panel_10_content">Panel 10 content</string>
+    <string name="panel_11">Panel 11</string>
+    <string name="panel_11_content">Panel 11 content</string>
+    <string name="guest">GUEST</string>
+    <string name="next_question">Next Question</string>
+</resources>
